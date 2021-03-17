@@ -18,7 +18,7 @@ public class Helper {
 		String OS = System.getProperty("os.name").toLowerCase();
 		if (OS.indexOf("win") >= 0) {
 			fullRangeCastColor = new Color(26, 118, 241);
-			startButtonGreen = new Color(155, 208, 30);
+			startButtonGreen = new Color(156, 208, 31);
 		} else if (OS.indexOf("mac") >= 0){
 			fullRangeCastColor = new Color(23, 92, 237);
 			startButtonGreen = new Color(139, 202, 24);
